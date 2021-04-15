@@ -22,8 +22,21 @@ Quagga.init({
     document.querySelector('.main-container').innerHTML='';
     document.querySelector('.main-container').innerHTML+=`
     <div class="segundoPaso">
-    <h2 class="confirmIdentity">Confirma tu identidad</h2>
-    <img src="credencialSocio.png" alt="credencial">
-    <button>Cancelar</button><button>Confirmar</button>
+    <div class="descripcionProducto">
+    <h2>Fideo Corbata luchetti</h2>
+    <h2>400grm </h2>
+    </div>
+    <button class="btnAgregarFormato">FORMATO:UNIDAD</button>
+    <div>
+    <p>MINIMO 5 UNIDADES<p>
+    <p>$580 c/u<p>
+    </div>
+    <div class="cantidad">
+    <p>-<p>
+    <p>1<p>
+    <p>+<p>
+    </div>
+    <img  class="imgProducto" src="https://i.imgur.com/iNO1KjH.png">
+    <button class="btnAgregarCarrito" onclick="window.location.href='carroDeCompras';">AGREGAR AL CARRITO</button>
     </div>`;
   })

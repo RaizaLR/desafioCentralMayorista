@@ -1,0 +1,348 @@
+  @media (min-width : 320px) and (max-width: 768px) {
+  html, body, div, span, applet, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  a, abbr, acronym, address, big, cite, code,
+  del, dfn, em, img, ins, kbd, q, s, samp,
+  small, strike, strong, sub, sup, tt, var,
+  b, u, i, center,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td,
+  article, aside, canvas, details, embed, 
+  figure, figcaption, footer, header, hgroup, 
+  menu, nav, output, ruby, section, summary,
+  time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  }
+
+
+  /* HTML5 display-role reset for older browsers */
+  article, aside, details, figcaption, figure, 
+  footer, header, hgroup, menu, nav, section {
+  display: block;
+  }
+  body {
+  line-height: 1;
+  font-family: roboto;
+  }
+  ol, ul {
+  list-style: none;
+  }
+  blockquote, q {
+  quotes: none;
+  }
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+  content: '';
+  content: none;
+  }
+  table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  }
+  *{
+  padding: 0px;
+  margin: 0px;
+  }
+  /* Slider, presentación */
+  .sliderContainer{
+  max-width: 100vw;
+  max-height: 100vh;
+  }
+
+  .flagsContainer{
+  text-align: center;
+  }
+
+  .sliderTitle{
+  display: flex;
+  justify-content: flex-start;
+  width: 142px;
+  height: 41px;
+  padding-top: 30px;
+  margin-left: 15px;
+  }
+
+  .slider{
+  display: flex;
+  overflow: hidden;
+  }
+  .slides{
+  display: flex;
+  width: 600%;
+  margin-top: 80px;
+
+  }
+
+  .slides input{
+  display: none;
+  }
+
+  .slide{
+  width: 22%;
+  transition: 2s;
+  text-align: center;
+  }
+
+  .slide img{
+    margin-right: 180px;
+    margin-left: 50px;
+    margin-top: 48px;
+    width: 350px;
+    height: 300px;
+  }
+
+  .navigationManual{
+  position:absolute;
+  width: 100vw;
+  display:flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 467px;
+  }
+
+  .manualBtn{
+  border: 2px solid  #DA010C;
+  padding: 5px;
+  border-radius: 10px;
+  cursor:pointer;
+  transition: 1s;
+  }
+
+  .manualBtn:not(:last-child){
+  margin-right: 15px;
+  }
+
+  .manualBtn:hover{
+  background:  #DA010C;
+  }
+
+  #radio1:checked ~ .first{
+  margin-left: 0;
+  }
+
+  #radio2:checked ~ .first{
+  margin-left: -20%;
+  }
+
+  #radio3:checked ~ .first{
+  margin-left: -40%;
+  }
+
+  #radio4:checked ~ .first{
+  margin-left: -60%;
+  }
+
+  .navigationAuto{
+  position: absolute;
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  margin-top: 467px;
+  }
+
+  .navigationAuto div{
+  border: 2px solid #DA010C;
+  padding: 5px;
+  border-radius: 10px;
+  cursor:pointer;
+  transition: 1s;
+  }
+
+  .navigationAuto div:not(:last-child){
+  margin-right: 15px;
+  }
+
+  #radio1:checked ~ .navigationAuto .autoBtn1{
+  background:  #DA010C;
+  }
+
+  #radio2:checked ~ .navigationAuto .autoBtn2{
+  background: #DA010C;
+  }
+
+  #radio3:checked ~ .navigationAuto .autoBtn3{
+  background: #DA010C;
+  }
+
+  #radio4:checked ~ .navigationAuto .autoBtn4{
+  background: #DA010C;
+  }
+
+  .sliderOneText{
+    margin-left: 17vw;
+    padding-right: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .sliderOneJump{
+  position: absolute;
+  left: 324px;
+  top: 30px;
+  color: #DA010C;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  }
+
+  .sliderTwoText{
+    padding-right: 80px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .forLoginBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-left: 70px;
+    width: 148px;
+    height: 40px;
+    color: #FEFEFE;
+    letter-spacing: 1.25px;
+    background: #DA010C;
+    border: 1px solid #DA010C;
+    box-sizing: border-box;
+    border-radius: 20px;
+  }
+
+  .forLoginSiguiente{
+  margin-top: 80px;
+  margin-left: 13vw;
+  width: 148px;
+  height: 40px;
+  color: #DA010C;
+  letter-spacing: 1.25px;
+  background: white;
+  border: 1px solid #DA010C;
+  box-sizing: border-box;
+  border-radius: 20px;
+
+  }
+
+  /* pagina de validar identidad */
+
+  .atras{
+  width: 35px;
+  margin-top: 20px;
+  margin-left: 18px;
+  }
+  .btnCodigoManual{
+  position: absolute;
+  width: 360px;
+  height: 56px;
+  left: 24px;
+  top: 618px;
+  border: 2px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 40px;
+  background: transparent;
+  color: white;
+  letter-spacing: 3.15px;
+
+  }
+
+  .primerPaso{
+  position: absolute;
+  width: 352px;
+  height: 34px;
+  left: calc(50% - 322px/2 - 4.5px);
+  top: 96px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.15px;
+  color: #000000;
+
+  }
+
+  video {
+  display: flex;
+  width: 800px;
+  margin-top: 121px;
+
+  }
+
+  .btnConfirmarCredencial{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  position: absolute;
+  width: 122px;
+  height: 33px;
+  left: 229px;
+  top: 289px;
+  color: #DA010C;
+  border: none;
+  background: white;
+  font-weight: 600;
+  font-size: larger;
+  }
+
+  .btnEliminarCredencial{
+  position: absolute;
+  width: 112px;
+  height: 33px;
+  left: 117px;
+  top: 289px;
+  color: #DA010C;
+  border: none;
+  background: white;
+  font-weight: 600;
+  font-size: larger;
+  }
+
+  .segundoPaso{
+  position: absolute;
+  width: 360px;
+  height: 345px;
+  left: 25px;
+  top: 141px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  }
+
+  .confirmIdentity{
+  position: absolute;
+  width: 197px;
+  height: 24px;
+  left: calc(50% - 197px/2 - 60.5px);
+  top: -41px;
+  /* font-family: Roboto; */
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 0.19px;
+  color: #000000;
+  font-size: larger;
+
+  }
+
+  .imgCredencial{
+  margin-left: 20px;
+  margin-top: 42px;
+
+  }
+
+
+
+
+
+
+  }

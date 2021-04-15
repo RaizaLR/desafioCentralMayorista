@@ -1,0 +1,150 @@
+@media (min-width : 320px) and (max-width: 768px) {
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+.escaneoProductos{
+background-color: #DA010C;
+/* position: absolute; */
+width: 413px;
+height: 61px;
+left: 0px;
+/* top: 24px; */
+height: 60px;
+}
+
+.imgEscaneo{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+position: absolute;
+width: 129px;
+height: 24px;
+left: 16px;
+top: 16px;
+}
+
+video {
+display: flex;
+width: 905px;
+margin-top: 0px;
+
+}
+
+canvas{
+    height: 600px;
+}
+
+.btnCodigoManual{
+position: absolute;
+width: 360px;
+height: 56px;
+left: 24px;
+top: 618px;
+border: 2px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 40px;
+background: transparent;
+color: white;
+letter-spacing: 3.15px;
+
+}
+
+.btnAgregarCarrito{
+position: absolute;
+width: 360px;
+height: 56px;
+left: 24px;
+top: 618px;
+border: 2px solid#DA010C;
+box-sizing: border-box;
+border-radius: 40px;
+background-color: #DA010C;
+color: white;
+letter-spacing: 3.15px;
+
+}
+
+.imgProducto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 4px 4px;
+    position: absolute;
+    width: 256px;
+    height: 192px;
+    left: calc(50% - 256px/2 - 0.5px);
+    top: 104px;
+
+}
+
+.descripcionProducto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 4px 0px 0px 4px;
+    position: absolute;
+    width: 337px;
+    height: 56px;
+    left: 19px;
+    top: 303px;
+    font-size: x-large;
+}
+
+.btnAgregarFormato{
+position: absolute;
+width: 360px;
+height: 56px;
+left: 24px;
+top: 385px;
+border: 2px solid#DA010C;
+box-sizing: border-box;
+border-radius: 40px;
+background-color: white;
+color:#DA010C ;
+letter-spacing: 3.15px;
+
+}
+
+.cantidad{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 108px;
+    height: 33px;
+    left: 248px;
+    top: 182px;
+ 
+}
+
+
+}
