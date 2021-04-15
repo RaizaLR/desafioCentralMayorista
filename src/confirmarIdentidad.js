@@ -24,6 +24,6 @@ Quagga.init({
     <div class="segundoPaso">
     <h2 class="confirmIdentity">Confirma tu identidad</h2>
     <img  class="imgCredencial" src="credencialSocio.png" alt="credencial">
-    <button class="btnEliminarCredencial">Cancelar</button><button class="btnConfirmarCredencial" onclick="window.location.href='carroDeCompras';">Confirmar</button>
+    <a href="confirmarIdentidad.html"><button class="btnEliminarCredencial">Cancelar</button></a><button class="btnConfirmarCredencial" onclick="window.location.href='carroDeCompras';">Confirmar</button>
     </div>`;
   })

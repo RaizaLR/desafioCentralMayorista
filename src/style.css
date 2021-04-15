@@ -99,10 +99,16 @@
     }
 
     .shoppingCartContent{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80vh;
+        display: flex;
+        justify-content: center;
+        height: 82vh;
+    }
+
+    .shoppingCartNewContent {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        height: 82vh;
     }
 
     .footer{
@@ -138,17 +144,53 @@
     margin-right: 2vw;
     }
 
+    .goToPaymentNewBtn{
+        font-family: Roboto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 8px 16px;
+        height: 33px;
+        border: 1px solid #DA010C;;
+        box-sizing: border-box;
+        border-radius: 20px;
+        background: #FFFFFF;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 120%;
+        text-align: center;
+        letter-spacing: 1.25px;
+        text-transform: uppercase;
+        color: #DA010C;;
+        margin-right: 2vw;
+        }
+
     .startScannerBtn{
-    position: absolute;
-    left: 155px;
-    top: 570px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #DA010C;
-    width: 64px;
-    height: 64px;
-    border-radius: 50%;
+        position: absolute;
+        left: 174px;
+        top: 630px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #DA010C;
+        width: 64px;
+        height: 64px;
+        border-radius: 50%;
+    }
+
+    .emptyCartImg{
+        height: 50vh;
+        margin-top: 50px;
+    }
+
+    .startScanningPopUp{
+        position: absolute;
+        left: 55px;
+        top: 558px;
     }
 
     .cartTotal{
@@ -179,6 +221,8 @@
     letter-spacing: 0.15px;
     color: #333333;
     }
+
+/* .productosEscaneados{} */
 
     }
 
